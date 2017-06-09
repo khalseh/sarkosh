@@ -34,4 +34,4 @@ return {
     },
     run = run
 }
---BY MahDiRoO
+--BY @ketmaan @ForoshBotAntiSpam
