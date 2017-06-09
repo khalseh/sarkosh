@@ -1,4 +1,4 @@
-# [MahDiRoO](https://telegram.me/MahDiRoO)
+# [KeTMaan](https://github.com/khalseh)
 
 
 * * *
@@ -9,18 +9,18 @@
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/MRMahDiRoO/MaTaDoR.git
-cd MaTaDoR
-chmod +x matador.sh
+git clone https://github.com/khalseh/sarkosh.git
+cd sarkosh
+chmod +x ket.sh
 chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
-./matador.sh install
-./matador.sh 
+./ket.sh install
+./ket.sh 
 # Enter a phone number & confirmation code.
 ```
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/MRMahDiRoO/MaTaDoR.git && cd MaTaDoR && chmod +x matador.sh && chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh && ./matador.sh install && ./matador.sh
+cd $HOME && git clonehttps://github.com/khalseh/sarkosh.git && cd sarkosh && chmod +x ket.sh && chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh && ./ket.sh install && ./ket.sh
 ```
 
 * * *
@@ -29,7 +29,7 @@ cd $HOME && git clone https://github.com/MRMahDiRoO/MaTaDoR.git && cd MaTaDoR &&
 
 ```
 killall screen
-cd MaTaDoR && screen ./matador.sh
+cd sarkosh && screen ./ket.sh
 ```
 
 * * *
@@ -38,7 +38,7 @@ cd MaTaDoR && screen ./matador.sh
 ### auto launch 
 ```
 killall screen
-cd MaTaDoR && screen ./auto.sh
+cd sarkosh && screen ./auto.sh
 ```
 
 * * *
