@@ -1,4 +1,4 @@
-﻿--Begin MuteTime.lua By @MahDiRoO
+--Begin MuteTime.lua By @ketmaan @ForoshBotAntiSpam
 local function pre_process(msg)
   local hash = 'mute_time:'..msg.chat_id_
   if redis:get(hash) and gp_type(msg.chat_id_) == 'channel' and not is_mod(msg)  then
