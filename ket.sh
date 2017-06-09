@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/ket
+cd $HOME/sarkosh
 
 install() {
 	    cd tg
