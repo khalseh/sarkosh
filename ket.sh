@@ -64,16 +64,6 @@ if [ ! -f ./tg/tgcli ]; then
  fi
 
 
-   print_logo
-   echo -e "\033[38;5;208m"
-   echo -e "  _  __         _____   __  __                  "
-   echo -e " | |/ /   ___  |_   _| |  \/  |   __ _   _ __   "
-   echo -e " | ' /   / _ \   | |   | |\/| |  / _` | | '_ \  "
-   echo -e " | . \  |  __/   | |   | |  | | | (_| | | | | | "
-   echo -e " |_|\_\  \___|   |_|   |_|  |_|  \__,_| |_| |_| "
-   echo -e "\033[0;00m"
-   echo -e "\e[36m"
-   logo_play
    #sudo service redis-server restart
    #./tg/tgcli -s ./bot/bot.lua -l 1 -E $@
    ./tg/tgcli -s ./bot/bot.lua $@
