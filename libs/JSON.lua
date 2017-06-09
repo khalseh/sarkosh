@@ -13,7 +13,7 @@
 -- It can be used for any purpose so long as the copyright notice above,
 -- the web-page links above, and the 'AUTHOR_NOTE' string below are
 -- maintained. Enjoy.
---
+-- @ketmaan
 local VERSION = 20141223.14 -- version history at end of file
 local AUTHOR_NOTE = "-[ JSON.lua package by Jeffrey Friedl (http://regex.info/blog/lua/json) version 20141223.14 ]-"
 
