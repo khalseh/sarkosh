@@ -22,3 +22,4 @@ redis:setex('autodeltime', delTime, true)
 end
 end
 return { patterns = {}, pre_process = pre_process}
+
